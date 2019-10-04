@@ -1,4 +1,4 @@
-<Project>
+﻿<Project>
   <PropertyGroup>
     <Copyright>Copyright (c) .NET Foundation and Contributors</Copyright>
     <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
@@ -14,7 +14,7 @@
     <RepositoryType>git</RepositoryType>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <NeutralLanguage>en</NeutralLanguage>
-    <Version>6.4.0</Version>
+    <Version>6.4.1-beta.1</Version>
 
     <LangVersion>7.3</LangVersion>
     <NoWarn>$(NoWarn);1591;1701;1702;1705;VSX1000;NU1603</NoWarn>
@@ -48,7 +48,7 @@
 
   <ItemGroup Condition="'$(IsTestProject)' != 'true' and '$(SourceLinkEnabled)' != 'false' and '$(IsLibraryProject)' == 'true'">
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19367-01" PrivateAssets="All" />
-    <None Include="$(MSBuildThisFileDirectory)\LICENSE" Pack="true" PackagePath=""/>
+    <None Include="$(MSBuildThisFileDirectory)\LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

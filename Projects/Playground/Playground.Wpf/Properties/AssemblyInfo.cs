@@ -15,5 +15,6 @@ using System.Windows;
     ResourceDictionaryLocation.None,
     ResourceDictionaryLocation.SourceAssembly
 )]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("6.4.1.0")]
+[assembly: AssemblyFileVersion("6.4.1.0")]
+[assembly: AssemblyInformationalVersion("6.4.1-beta.1+39.Branch.release-6.4.1.Sha.ce6ee4eebdf595cd860af14007860dfadcae70ab")]

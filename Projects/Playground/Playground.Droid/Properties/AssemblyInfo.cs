@@ -28,4 +28,4 @@ using System.Reflection;
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
 [assembly: AssemblyFileVersion("6.4.1.0")]
-[assembly: AssemblyInformationalVersion("6.4.1-beta.1+39.Branch.release-6.4.1.Sha.ce6ee4eebdf595cd860af14007860dfadcae70ab")]
+[assembly: AssemblyInformationalVersion("6.4.1-beta.1+40.Branch.release-6.4.1.Sha.0649401484f607b71f9ed3c11e8135a61e9d5d78")]
